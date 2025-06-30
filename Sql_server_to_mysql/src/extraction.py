@@ -14,7 +14,6 @@ def extract_data():
         PWD={sql['password']};
         TrustServerCertificate=yes;
     """
-
     params=urllib.parse.quote_plus(connectionstring)
     engine=create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
 
