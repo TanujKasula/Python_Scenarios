@@ -8,7 +8,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
+# Secrets
+*.json
+*.pickle
+credentials/
 # Ignore system files
 .DS_Store
 Thumbs.db
@@ -17,3 +20,6 @@ Thumbs.db
 .env
 
 config.config
+
+Question_17_Gmail/credentials/token.pickle
+Question_17_Gmail/credentials/Credentials.json
