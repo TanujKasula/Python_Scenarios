@@ -18,7 +18,7 @@ Thumbs.db
 
 # Ignore environment-related
 .env
-
+config/
 config.config
 
 Question_17_Gmail/credentials/token.pickle

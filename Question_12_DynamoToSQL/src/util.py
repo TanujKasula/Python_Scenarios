@@ -44,3 +44,4 @@ def get_dynamodb_table():
 
     table=dynamodb.Table(aws_table)
     return table
+
